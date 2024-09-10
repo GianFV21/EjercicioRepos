@@ -26,5 +26,10 @@ namespace EjercicioRepos
             txtnumero2.Focus();
             txtnumero3.Focus();
         }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -125,6 +125,7 @@ namespace EjercicioRepos
             this.btnsalir.TabIndex = 9;
             this.btnsalir.Text = "Salir";
             this.btnsalir.UseVisualStyleBackColor = true;
+            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
             // 
             // Form1
             // 
