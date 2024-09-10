@@ -106,6 +106,7 @@ namespace EjercicioRepos
             this.btncalcular.TabIndex = 7;
             this.btncalcular.Text = "Calcular";
             this.btncalcular.UseVisualStyleBackColor = true;
+            this.btncalcular.Click += new System.EventHandler(this.btncalcular_Click);
             // 
             // btnlimpiar
             // 
