@@ -16,5 +16,15 @@ namespace EjercicioRepos
         {
             InitializeComponent();
         }
+
+        private void btnlimpiar_Click(object sender, EventArgs e)
+        {
+            txtnumero1.Text = "";
+            txtnumero2.Text = "";
+            txtnumero3.Text = "";
+            txtnumero1.Focus();
+            txtnumero2.Focus();
+            txtnumero3.Focus();
+        }
     }
 }
